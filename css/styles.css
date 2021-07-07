@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background-color: #202020 !important;
+  background-image: url("./../../image/wave-haikei.svg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  color: #fff;
+  font: 600 40px "Karla", sans-serif !important;
+}
+
+main .boxInput {
+  font: 16px "Karla", sans-serif;
+}
+main .boxInput .btn {
+  background-color: #420999;
+  padding: 10px;
+  color: #fff;
+  font: 15px "Karla", sans-serif;
+  border-radius: 11px;
+  box-shadow: 2px 3px 10px #440d4b;
+}
+main .boxInput .btn:hover {
+  background-color: #9a3bc9dc;
+  box-shadow: 2px 3px 10px #3b183f;
+}
+main .box-1,
+main .box-2 {
+  width: 70%;
+}
+
+main .row .col #list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .row .col #list .card {
+  height: 50px;
+  border-radius: 15px;
+  text-align: center;
+  width: 250px;
+}
+main .row .col #list .card-body p {
+  font: 600 16px "Karla", sans-serif;
+}
+
+@media only screen and (max-width: 769px) {
+  main .needs-validation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
