@@ -1,0 +1,8 @@
+$color: #fff;
+$tamaño: 10px;
+$font: 'Karla', sans-serif;
+
+h1{
+    color: $color;
+    font: 600 ($tamaño + 30px) $font !important;
+}

@@ -1,0 +1,9 @@
+@media only screen and (max-width: 769px){
+    main{
+        .needs-validation{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+$colorFondo: #420999;
+$hoverColor: #9a3bc9dc;
+$textColor: #fff;
+$size: 1px;
+$family: 'Karla', sans-serif;
+
+main{
+    .boxInput{
+        font: ($size + 15px) $family    
+    }
+    .boxInput .btn{
+    background-color:$colorFondo;
+    padding: $size + 9px;
+    color: $textColor;
+    font: ($size + 14px) $family;
+    border-radius: $size + 10px;
+    box-shadow: ($size + 1px) ($size + 2px) ($size + 9px) #440d4b;
+    }
+    .boxInput .btn:hover{
+        background-color: $hoverColor;
+        box-shadow: ($size + 1px) ($size + 2px) ($size + 9px) #3b183f;
+    }
+    
+    .box-1,
+    .box-2{
+        width: 70%;
+    }
+}
+
+

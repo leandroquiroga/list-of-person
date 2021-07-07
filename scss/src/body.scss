@@ -1,0 +1,10 @@
+$fondoColor: #202020 ;
+$pos: fixed;
+$tam: cover;
+
+body{
+    background-color: $fondoColor !important;
+    background-image: url("./../../image/wave-haikei.svg");
+    background-attachment: $pos;
+    background-size: $tam;
+}

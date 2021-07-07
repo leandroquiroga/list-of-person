@@ -1,0 +1,20 @@
+$family: 'Karla', sans-serif;
+$size: 10px;
+$pos: center;
+
+main .row .col #list{
+    display: flex;
+    flex-direction: column;
+    justify-content: $pos;
+    align-items: $pos;
+    .card{
+        height: $size + 40px;
+        border-radius: $size + 5px;
+        text-align: $pos;
+        width: 250px;
+    }
+    .card-body p{
+        font: 600 ($size + 6px) $family
+
+    }
+}
